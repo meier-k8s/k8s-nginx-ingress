@@ -6,6 +6,8 @@ metadata:
   namespace: ingress-nginx
   labels:
     app: ingress-nginx
+data:
+  client-header-buffer-size: '16k'
 ---
 kind: ConfigMap
 apiVersion: v1
